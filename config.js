@@ -1,2 +1,4 @@
-// Solo URL y clave pública anon/publishable de Supabase. Nunca usar service_role.
-window.MINERVA_CONFIG = { supabaseUrl: "", supabaseAnonKey: "" };
+window.MINERVA_CONFIG = {
+  supabaseUrl: "https://twsnnutzcbdkqinwgmxd.supabase.co",
+  supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR3c25udXR6Y2Jka3FpbndnbXhkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIwOTM4MjQsImV4cCI6MjEwNzY2OTgyNH0.eb_tdkAYsYHQhZmq5MGzzXSIcK61Lw3J7UCR3kQd_bo"
+};
