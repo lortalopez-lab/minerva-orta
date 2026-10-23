@@ -97,6 +97,17 @@ body>.menu-toggle{left:6px;padding:16px 9px}
 .contact-form .form-row{gap:0}
 .contact-form .btn{width:100%}
 }
+
+/* Tamaño uniforme para textos secundarios y canales sin líneas. */
+.brand small,.contact-list small,.contact-form .form-intro{font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.5;font-weight:400;letter-spacing:0;text-transform:none}
+.contact-list{column-gap:clamp(24px,6vw,80px);row-gap:24px}
+.contact-list a{border-bottom:0;padding:0;min-height:0;align-items:flex-start}
+.contact-list small{margin-bottom:8px}
+@media(max-width:700px){
+.brand small,.contact-list small,.contact-form .form-intro{font-size:14px;line-height:1.5}
+.contact-list{column-gap:20px;row-gap:20px}
+.contact-list a{padding:0;min-height:0}
+}
 </style></head><body><a class="skip-link" href="#contenido">Saltar al contenido</a>
 <header><nav aria-label="Navegación principal" class="wrap"><a class="brand" href="#inicio">Minerva Orta<small>Psicología &amp; bienestar</small></a><div class="links"><a href="#sobre-mi">Sobre mí</a><a href="#servicios">Servicios</a><a href="#contacto">Contacto</a></div></nav></header><button aria-controls="side-menu" aria-expanded="false" aria-label="Abrir menú de secciones" class="menu-toggle" id="menu-toggle" type="button"><span aria-hidden="true" class="menu-symbol"><i></i><i></i></span><span>Explorar</span></button>
 <div class="menu-backdrop" hidden="" id="menu-backdrop"></div><aside aria-label="Menú de secciones" aria-labelledby="menu-title" aria-modal="true" class="side-menu" hidden="" id="side-menu" role="dialog"><div class="side-top"><span class="side-intro">Tu espacio de bienestar</span><button aria-label="Cerrar menú" id="menu-close" type="button">×</button></div><p class="side-title" id="menu-title">¿A dónde<br/>quieres ir?</p><nav aria-label="Secciones de la página"><a href="#inicio"><small aria-hidden="true">01</small>Inicio</a><a href="#sobre-mi"><small aria-hidden="true">02</small>Sobre mí</a><a href="#servicios"><small aria-hidden="true">03</small>Servicios</a><a class="sub-link" href="#individual">Psicoterapia individual</a><a class="sub-link" href="#pareja">Psicoterapia de pareja</a><a class="sub-link" href="#tanatologia">Tanatología</a><a href="#contacto"><small aria-hidden="true">04</small>Contacto</a></nav><p class="side-foot">A tu ritmo. Con empatía. Sin juicios.</p></aside><main id="contenido"><div class="hero" id="inicio"><div class="wrap hero-grid"><div><h1>Un espacio seguro para tu bienestar y crecimiento personal</h1><p class="intro">Psicóloga social con enfoque cognitivo conductual</p><a class="btn" href="#contacto">Contacto</a></div><div class="hero-visual"><img alt="Sillón azul junto a una mesa en un espacio de consulta" decoding="async" fetchpriority="high" height="933" src="assets/espacio.jpg" width="1400"/></div></div></div>
