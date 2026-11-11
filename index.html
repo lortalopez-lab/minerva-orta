@@ -108,7 +108,23 @@ body>.menu-toggle{left:6px;padding:16px 9px}
 .contact-list{column-gap:20px;row-gap:20px}
 .contact-list a{padding:0;min-height:0}
 }
-</style></head><body><a class="skip-link" href="#contenido">Saltar al contenido</a>
+</style>
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_MX">
+<meta property="og:site_name" content="Psic. Minerva Orta">
+<meta property="og:title" content="Psic. Minerva Orta">
+<meta property="og:description" content="Psicoterapia individual, de pareja y acompañamiento tanatológico.">
+<meta property="og:url" content="https://psicminervaorta.com/">
+<meta property="og:image" content="https://psicminervaorta.com/social-preview.jpg">
+<meta property="og:image:secure_url" content="https://psicminervaorta.com/social-preview.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Psic. Minerva Orta">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Psic. Minerva Orta">
+<meta name="twitter:image" content="https://psicminervaorta.com/social-preview.jpg">
+</head><body><a class="skip-link" href="#contenido">Saltar al contenido</a>
 <header><nav aria-label="Navegación principal" class="wrap"><a class="brand" href="#inicio">Minerva Orta<small>Psicología &amp; bienestar</small></a><div class="links"><a href="#sobre-mi">Sobre mí</a><a href="#servicios">Servicios</a><a href="#contacto">Contacto</a></div></nav></header><button aria-controls="side-menu" aria-expanded="false" aria-label="Abrir menú de secciones" class="menu-toggle" id="menu-toggle" type="button"><span aria-hidden="true" class="menu-symbol"><i></i><i></i></span><span>Explorar</span></button>
 <div class="menu-backdrop" hidden="" id="menu-backdrop"></div><aside aria-label="Menú de secciones" aria-labelledby="menu-title" aria-modal="true" class="side-menu" hidden="" id="side-menu" role="dialog"><div class="side-top"><span class="side-intro">Tu espacio de bienestar</span><button aria-label="Cerrar menú" id="menu-close" type="button">×</button></div><p class="side-title" id="menu-title">¿A dónde<br/>quieres ir?</p><nav aria-label="Secciones de la página"><a href="#inicio"><small aria-hidden="true">01</small>Inicio</a><a href="#sobre-mi"><small aria-hidden="true">02</small>Sobre mí</a><a href="#servicios"><small aria-hidden="true">03</small>Servicios</a><a class="sub-link" href="#individual">Psicoterapia individual</a><a class="sub-link" href="#pareja">Psicoterapia de pareja</a><a class="sub-link" href="#tanatologia">Tanatología</a><a href="#contacto"><small aria-hidden="true">04</small>Contacto</a></nav><p class="side-foot">A tu ritmo. Con empatía. Sin juicios.</p></aside><main id="contenido"><div class="hero" id="inicio"><div class="wrap hero-grid"><div><h1>A tu ritmo, con empatía<br/>y sin juicios</h1><p class="intro">Psicóloga con enfoque cognitivo conductual</p><a class="btn" href="#contacto">Contacto</a></div><div class="hero-visual"><img alt="Sillón azul junto a una mesa en un espacio de consulta" decoding="async" fetchpriority="high" height="933" src="assets/espacio.jpg" width="1400"/></div></div></div>
 <section class="about" id="sobre-mi"><div class="wrap about-grid"><div class="about-image"><img alt="Luz natural y sombras de hojas sobre una pared clara" class="about-photo" decoding="async" height="1400" loading="lazy" src="assets/luz-natural.jpg" width="1050"/></div><div class="about-copy"><h2>Sobre mi…</h2><p>Soy psicoterapeuta y estoy aquí para trabajar contigo en la comprensión de tus emociones, pensamientos y experiencias, ayudarte a reconocer tus propios recursos y descubrir nuevas formas de afrontar dificultades y relacionarte contigo y con los demás.</p><p>Mi forma de trabajar se basa en la empatía, la confianza y el dialogo honesto. Te ofrezco un espacio seguro para comprender lo que vives, reconocer tus recursos y encontrar nuevas formas de afrontar tus dificultades, respetando tu historia y tu ritmo.</p><p>Te acompaño en procesos de psicoterapia individual, terapia de pareja y tanatología, brindándote un espacio de confianza para explorar lo que estás viviendo y encontrar nuevas alternativas para tu bienestar</p></div></div></section>
@@ -139,3 +155,4 @@ status.dataset.state='success';status.textContent='Gracias. Tu solicitud quedó 
 }catch(error){status.dataset.state='error';status.textContent=error.message||'No se pudo enviar el mensaje. Intenta nuevamente.';}finally{button.disabled=false;form.removeAttribute('aria-busy');}});
 if('IntersectionObserver' in window&&!matchMedia('(prefers-reduced-motion: reduce)').matches){const observer=new IntersectionObserver(entries=>{for(const entry of entries){if(entry.isIntersecting){entry.target.classList.add('reveal-in');observer.unobserve(entry.target);}}},{threshold:.12});document.querySelectorAll('.about-copy h2,.about-copy p,.about-image,.section-head h2,.service>img,.service-copy h3,.service-copy p,.service-copy .text-link,.invitation p,.contact h2,.contact-list,.contact-form,.footer-name').forEach((el,i)=>{el.style.setProperty('--delay',(i%3)*60+'ms');observer.observe(el);});}
 </script></body></html>
+
